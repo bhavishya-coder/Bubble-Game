@@ -1,0 +1,72 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+.main{
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(170, 226, 170);
+}
+.panel{
+    overflow: hidden;
+    height:88%;
+    width:85%;
+    background-color:#fff;
+    border-radius: 5px;
+}
+.ptop{
+    width: 100%;
+    height:90px;
+    background-color: rgb(52, 92, 52);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+}
+.elem{
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+
+.box{
+    background-color: #fff;
+    color: rgb(20, 155, 89);
+    font-size: 22px;
+    border-radius: 5px;
+    font-weight: 600;
+    padding:10px 20px;
+}
+#pbtm{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.bubble{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: rgb(31, 98, 66);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(20, 65, 43);
+}
